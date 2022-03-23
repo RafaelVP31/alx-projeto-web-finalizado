@@ -1,0 +1,312 @@
+@media (max-width: 415px) {
+    .body {
+        width: 414px;
+    }
+    
+    .header {
+        width: 350px;
+        margin: 0 auto;
+        word-spacing: 10px;
+        height: 45px;
+        padding-bottom: 70px;
+    }
+
+    .hide--link {
+        display: none;
+    }
+
+    .header__menu {
+        width: 375px;
+    }
+
+    .header__star {
+        display: none;
+    }
+
+    .header__menu--botao {
+        display: none;
+    }
+
+    .palavras {
+        width: 335px;
+        padding: 0 0 15px 0;
+    }
+
+    .container-texto__geral {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+
+    .container-1__texto-1 {
+        padding-right: 0;
+    }
+
+    .bloco__imagens {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 414px;
+    }
+
+    .bloco__imagem--palavras {
+        width: 345px;
+        margin: 0 10px;
+        padding: 10px 0 15px 0;
+    }
+
+    .bloco__imagens--garota {
+        width: 220px;
+    }
+
+    .fundo-1__azul {
+        width: 414px;
+    }
+
+    .fundo-1__azul--box {
+        width: 414px;
+    }
+
+    .fundo-1__azul--foto-2 {
+        width: 315px;
+    }
+
+    .fundo-1__azul--foto-1 {
+        padding-top: 40px;
+    }
+
+    .fundo-1__azul--paragrafo {
+        display: none;
+    }
+
+    .fundo-1__azul-ready {
+        padding-bottom: 30px;
+    }
+
+    .news {
+        width: 414px;
+    }
+
+    .news-container {
+        width: 350px;
+        padding: 20px 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .news-container__titulo {
+        width: 330px;
+        text-align: center;
+    }
+
+    .womens {
+        width: 350px;
+        flex-direction: column;
+        padding-bottom: 50px;
+        margin: 0 auto;
+    }
+
+    .mulher {
+        text-align: center;
+    }
+
+    .mulheres-lista__foto {
+        width: 200px;
+    }
+
+    .mulher-foto:hover {
+        opacity: 1;
+    }
+    
+
+    .mulheres-lista__titulo {
+        width: 330px;
+    }
+
+    .mulheres-lista__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mulheres-lista__conteudo {
+        width: 330px;
+    }
+
+    .mulheres-lista__paragrafo {
+        padding-bottom: 0px;
+    }
+
+    .header__menu--saiba-mais {
+        margin: 15px 0 50px 0;
+        background-color: #e8e8ea;
+    }
+
+    .mulher-conteudo {
+        flex-direction: column;
+    }
+
+    .fundo__azul-amarelo {
+        width: 414px;
+        padding-bottom: 80px;
+    }
+
+    .fundo-azul-2__conteudo {
+        width: 350px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .garota-2__bloco-2 {
+        width: 220px;
+    }
+
+    .container__bloco-2 {
+        width: 300px;
+        padding-top: 40px;
+    }
+    
+    .container__bloco-2--paragrafo {
+        width: 300px;
+        font-size: 0.9rem;
+    }
+
+    .lista__garotas--banner {
+        width: 414px;
+        padding-bottom: 50px;
+        row-gap: 0;
+    }
+
+    .lista__garotas--banner-1 {
+        width: 320px;
+    }
+
+    .lista__garotas--banner-2 {
+        width: 320px;
+        padding-bottom: 35px;
+    }
+
+    .lista__garotas--paragrafo {
+        width: 320px;
+    }
+
+    .mulher-lista__bloco {
+        grid-template-columns: 1fr;
+        width: 350px;
+        text-align: center;
+    }
+
+    .mulheres-lista__foto--hide {
+        display: none;
+    }
+
+    .fundo__azul--invertido {
+        width: 414px;
+        padding-bottom: 50px;
+    }
+
+    .fundo__azul--garota-meio {
+        width: 150px;
+        align-self: flex-end;
+        margin: 0 20px 0 0;
+        position: absolute;
+        top: 5436px;
+        left: 218px;
+    }
+
+    .fundo__azul--conteudo {
+        flex-direction: column;
+        padding-top: 15px;
+    }
+
+    .fuel {
+        width: 257px;
+    }
+
+    .fundo__azul--paragrafo {
+        width: 215px;
+    }
+
+    .header__menu--bloco-3 {
+        margin-top: 0;
+    }
+
+    .fundo__azul--esquerdo {
+        padding-bottom: 30px;
+        padding-right: 95px;
+    }
+
+    .fundo__azul--container {
+        width: 414px;
+        display: inline-block;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .fundo__azul--paragrafo-2 {
+        display: inline-block;
+    }
+
+    .testemunho {
+        width: 414px;
+        padding-bottom: 50px;
+    }
+
+    .testemunho__paragrafo {
+        width: 322px;
+    }
+
+    .testemunho__imagem-titulo {
+        width: 355px;
+        padding-top: 60px;
+    }
+
+    .testemunho__box {
+        flex-direction: column;
+    }
+
+    .faq {
+        width: 414px;
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+
+    .faq__principal-right {
+        width: 350px;
+    }
+
+    .faq__box--conteudo-paragrafo {
+        width: 311px;
+    }
+
+    .faq__box--conteudo {
+        padding-bottom: 1px;
+    }
+
+    .faq__container-externo-esquerdo {
+        display: none;
+    }
+
+    .footer {
+        padding: 15px;
+    }
+
+    .footer__container {
+        padding-bottom: 30px;
+    }
+
+    .footer__titulo {
+        font-size: 0.6rem;
+        font-weight: 400;
+    }
+
+    .li {
+        font-size: 0.6rem;
+    }
+
+    .footer__rodape {
+        font-size: 0.9rem;
+        display: inline-block;
+        text-align: center;
+    }
+}
+    
