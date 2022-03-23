@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+.news {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.news-container {
+    padding: 150px 0 100px 0;
+}
+
+.womens {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    row-gap: 20px;
+}
+
+.mulher {
+    justify-content: center;
+}
+
+.mulher-foto {
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.mulher-foto:hover {
+    opacity: 0.5;
+}
+
+.mulher-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mulher-titulo {
+    font-family: 'Bungee', cursive;
+    color: #ed73ac;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.mulher-paragrafo {
+    width: 275px;
+    font-size: 0.9rem;
+    color: #3a67ba;
+    font-weight: 700;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.header__menu--leia-agora {
+    margin-top: 20px;
+    font-family: 'Bungee', cursive;
+}
+
+.fundo__azul-amarelo {
+    background-image: url(../IMG/fundo-azul-amarelo.png);
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+    padding: 47px 0 186px 0;
+}
+
+.fundo-azul-2__conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 45px;
+}
+
+.container__bloco-2 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-top: 90px;
+}
+
+.garota-2__bloco-2--titulo {
+    font-family: 'Bungee', cursive;
+    color: #ed73ac;
+    padding-bottom: 35px;
+}
+
+.container__bloco-2--paragrafo {
+    width: 515px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    line-height: 20px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.header__menu--bloco-2 {
+    border-color: #FFFFFF;
+    font-family: 'Bungee', cursive;
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.header__menu--bloco-2:active {
+    background-color: #FFFFFF;
+    color: #3a67ba;
+}

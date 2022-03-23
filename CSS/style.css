@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+body {
+    background-image: url(../IMG/background-principal-1.png);
+    width: 1440px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.principal-master {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    height: 150px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding-top: 55px;
+}
+
+.header__menu--logo {
+    width: 82px;
+    height: 82px;
+    padding-right: 15px;
+}
+
+.header__menu--link {
+    text-decoration: none;
+    color: #ed73ac;
+    padding: 0 15px 0 15px
+}
+
+.header__menu--link:hover {
+    color: #84184a;
+}
+
+.header__menu--link:active {
+    color: #ed73ac;
+}
+
+.header__star {
+    padding: 0 80px 0 95px;
+}
+
+.header__menu--botao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    align-items: center;
+    padding-top: 55px;
+    font-family: 'Bungee', cursive;
+}
+
+.header__menu--botao-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    align-items: center;
+    padding-top: 23px;
+    font-family: 'Bungee', cursive;
+}
+
+.header__menu--botao-signin {
+    border: 3.2px solid #3a67ba;
+    color: #3a67ba;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 130px;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.header__menu--botao-signup {
+    border: 3.2px solid #3a67ba;
+    background-color: #3a67ba;
+    color: #e8e8ea;
+    border-radius: 20px;
+    width: 130px;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.header__menu--botao-signup-2 {
+    border: 3.2px solid #3a67ba;
+    background-color: #3a67ba;
+    color: #e8e8ea;
+    border-radius: 20px;
+    width: 130px;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.header__menu--botao-signup-2:active {
+    cursor: pointer;
+    background-color: #e8e8ea;
+    color: #3a67ba;
+}
+
+.header__menu--botao-signin:hover {
+    cursor: pointer;
+}
+
+.header__menu--botao-signup:hover {
+    cursor: pointer;
+}
+
+.header__menu--botao-signin:active {
+    color: #e8e8ea;
+    background-color: #3a67ba;
+}
+
+.header__menu--botao-signup:active {
+    color: #3a67ba;
+    background-color: #e8e8ea;
+}
+/* Fim do cabeçalho */
+
+.bloco__imagens {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bloco__imagem--palavras {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 130px 0 0;
+}
+
+.palavras {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.container-texto__geral {
+    display: flex;
+    padding-top: 50px;
+}
+
+.container-1__texto-1 {
+    padding-right: 40px;
+}
+
+.container-1__titulo {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ee78af;
+    font-family: 'Bungee', cursive;
+    font-size: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.container-1__texto {
+    line-height: 25px;
+    font-size: 0.9rem;
+    color: #3463b8;
+    font-weight: 700;
+    font-family: 'Comic Neue', cursive;
+}
+
+.bloco__menu--botao {
+    padding-top: 15px;
+}
+
+.fundo-1__azul {
+    background-image: url(../IMG/fundo-azul-1.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.fundo-1__azul--box {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 85px;
+}
+
+.fundo-1__azul--foto-1 {
+    width: 165px;
+    padding-top: 180px;
+}
+
+.fundo-1__azul--foto-2 {
+    width: 770px;
+}
+
+.fundo-1__azul--paragrafo {
+    width: 600px;
+}
+
+.fundo-1__azul-ready {
+    width: 165px;
+    padding-bottom: 140px;
+}
+
+.fundo__azul--invertido {
+    background-image: url(../IMG/fundo-azul-invertido.png);
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+
+.fundo__azul--conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 49px;
+}
+
+.fundo__azul--esquerdo {
+   padding-bottom: 170px;
+}
+
+.fundo__azul--paragrafo {
+    width: 370px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+    line-height: 20px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.header__menu--bloco-3 {
+    color: #3463b8;
+    background-color: #FFFFFF;
+    font-family: 'Bungee', cursive;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.fundo__azul--garota-meio {
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo__azul--container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 70px;
+}
+
+.fundo__azul--titulo {
+    text-transform: uppercase;
+    color: #ed73ac;
+    font-family: 'Bungee', cursive;
+}
+
+.fundo__azul--paragrafo-2 {
+    width: 322px;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.testemunho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 85px;
+    padding-bottom: 155px;
+}
+
+.testemunho__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 250px;
+}
+
+.testemunho__titulo {
+    padding-bottom: 20px;
+    font-family: 'Bungee', cursive;
+    color: #ed73ac;
+    font-size: 1.3rem;
+}
+
+.testemunho__paragrafo {
+    width: 220px;
+    font-size: 0.9rem;
+    color: #3463b8;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.header__menu--bloco-4 {
+    font-family: 'Bungee', cursive;
+    font-weight: 400;
+    background-color: #3463b8;
+    color: #FFFFFF;
+    padding-top: 1px;
+}
+
+.header__menu--bloco-4:active {
+    background-color: #FFFFFF;
+    color: #3463b8;
+}
+
+.faq {
+    background-image: url(../IMG/faq.png);
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 90px;
+    padding-top: 100px;
+}
+
+.faq__box--conteudo {
+    padding-bottom: 90px;
+}
+
+.faq__principal-right {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+
+.faq__container-externo-direito {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq__container-externo-esquerdo {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    padding-top: 76px;
+}
+
+.faq__box--conteudo-titulo {
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-bottom: 4px solid #FFFFFF;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.faq__box--conteudo-paragrafo {
+    color: #FFFFFF;
+    padding-top: 20px;
+    width: 625px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.mulheres-lista__foto {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.mulheres-lista__foto:hover {
+    opacity: 0.5;
+}
+
+span {
+    padding-left: 43px;
+}

@@ -1,0 +1,36 @@
+.footer {
+    padding: 0 50px 70px 50px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 63px;
+    line-height: 20px;
+}
+
+.footer__titulo {
+    color: #ed73ac;
+    font-family: 'Bungee', cursive;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding-bottom: 12px;
+}
+
+.li {
+    font-family: 'Comic Neue', cursive;
+    color: #3463b8;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.footer__rodape {
+    font-weight: 700;
+    color: #3463b8;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1.1rem;
+}
+
+.fundo__rodape {
+    display: block;
+}

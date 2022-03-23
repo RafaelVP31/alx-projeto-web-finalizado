@@ -1,0 +1,63 @@
+.lista__garotas--banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+    row-gap: 25px;
+}
+
+.lista__garotas--paragrafo {
+    color: #3463b8;
+    font-weight: 700;
+    width: 940px;
+    line-height: 20px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.mulheres-lista__conteudo{
+    line-height: 25px;
+}
+
+.mulheres-lista__container {
+    display: flex;
+}
+
+.mulher-lista__bloco {
+    width: 1020px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 100px;
+}
+
+.mulheres-lista__titulo {
+    font-size: 1.5rem;
+    color: #ee78af;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.mulheres-lista__paragrafo {
+    width: 330px;
+    color: #3463b8;
+    font-weight: 700;
+    padding-bottom: 60px;
+}
+
+.header__menu--saiba-mais {
+    height: 30px;
+    margin-top: 30px;
+    font-family: 'Bungee', cursive;
+    font-weight: 400;
+    font-size: 1.1rem;
+    background-color: #e8e8ea;
+    color: #3463b8;
+}
+
+.header__menu--saiba-mais:active {
+    background-color: #3463b8;
+    color: #e8e8ea;
+}
